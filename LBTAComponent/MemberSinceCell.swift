@@ -27,7 +27,6 @@ class MemberSinceCell: DatasourceCell {
     override func setupViews() {
         super.setupViews()
         separatorLineView.isHidden = false
-        
         addSubview(titleLabel)
         addSubview(nameLabel)
         

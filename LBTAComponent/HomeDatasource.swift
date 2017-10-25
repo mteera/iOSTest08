@@ -21,13 +21,10 @@ class HomeDatasource: Datasource {
     }
     
     override func cellClasses() -> [DatasourceCell.Type] {
-        return [UserCell.self, MemberSinceCell.self]
+        return [UserCell.self, SummaryCell.self, MemberSinceCell.self]
     }
     
-    override func footerClasses() -> [DatasourceCell.Type]? {
-        return [FooterCell.self]
-    }
-    
+
     
     // Assign the items to an indexPath for the table
     override func item(_ indexPath: IndexPath) -> Any? {
@@ -38,11 +35,13 @@ class HomeDatasource: Datasource {
     override func numberOfItems(_ section: Int) -> Int {
         if section == 1 {
             return 1
+        } else if section == 2 {
+            return 1
         }
         return words.count
     }
     
     override func numberOfSections() -> Int {
-        return 2
+        return 3
     }
 }
