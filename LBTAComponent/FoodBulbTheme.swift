@@ -14,7 +14,8 @@ extension UIColor {
     static let foodBulbOrange = UIColor(r: 255, g: 130, b: 98)
     static let facebookBlue = UIColor(r: 59, g: 89, b: 152)
     static let babyBlue = UIColor(r: 247, g: 249, b: 252)
-    
+    static let beepBlue = UIColor(r: 105, g: 285, b: 252)
+
 }
 
 

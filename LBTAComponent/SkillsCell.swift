@@ -1,15 +1,14 @@
-
 //
-//  UserCell.swift
+//  SkillsCell.swift
 //  LBTAComponent
 //
-//  Created by Chace Teera on 24/10/2017.
+//  Created by Chace Teera on 25/10/2017.
 //  Copyright © 2017 chaceteera. All rights reserved.
 //
 
 import LBTAComponents
 
-class UserCell: DatasourceCell {
+class InterestsCell: DatasourceCell {
     
     override var datasourceItem: Any? {
         didSet {
@@ -45,3 +44,4 @@ class UserCell: DatasourceCell {
         
     }
 }
+

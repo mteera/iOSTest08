@@ -8,23 +8,19 @@
 
 import LBTAComponents
 
-class HomedataourceController: DatasourceController {
+class HomedatasourceController: DatasourceController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
+        setupNavigationBarItems()
         // Call the data source
         let homeDatasource = HomeDatasource()
         self.datasource = homeDatasource
     }
-    
-    
+
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
-    
-    
-    
+
     override func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         if indexPath.section == 1 {

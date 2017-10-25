@@ -21,7 +21,7 @@ class HomeDatasource: Datasource {
     }
     
     override func cellClasses() -> [DatasourceCell.Type] {
-        return [UserCell.self, SummaryCell.self, MemberSinceCell.self, IndustryCell.self, TitleHeaderCell.self, LinksCell.self]
+        return [InterestsCell.self, SummaryCell.self, MemberSinceCell.self, IndustryCell.self, TitleHeaderCell.self, LinksCell.self]
     }
     
 
