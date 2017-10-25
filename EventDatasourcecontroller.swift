@@ -13,6 +13,8 @@ class EventDatasoucecontroller: DatasourceController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.babyBlue
         collectionView?.contentInset = UIEdgeInsetsMake(44,0,0,0)
+        navigationController?.navigationBar.backgroundColor = .white
+
         setupNavigationBarItems()
         // Call the data source
         let homeDatasource = EventDatasource()

@@ -19,7 +19,7 @@ class InterestsCell: DatasourceCell {
     let checkCircle: UIView = {
         let circle = UIView()
         circle.backgroundColor = UIColor.foodBulbGreen
-        circle.layer.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+        circle.layer.frame = CGRect(x: 0, y: 0, width: 20, height: 20)
         circle.layer.cornerRadius = circle.layer.frame.height/2
         circle.clipsToBounds = true
         return circle
@@ -38,9 +38,9 @@ class InterestsCell: DatasourceCell {
         addSubview(checkCircle)
         addSubview(nameLabel)
         
-        checkCircle.anchor(topAnchor, left: leftAnchor, bottom: nil, right: nil, topConstant: 12, leftConstant: 12, bottomConstant: 12, rightConstant: 0, widthConstant: 30, heightConstant: 30)
+        checkCircle.anchor(topAnchor, left: leftAnchor, bottom: nil, right: nil, topConstant: 12, leftConstant: 12, bottomConstant: 12, rightConstant: 0, widthConstant: 20, heightConstant: 20)
         
-        nameLabel.anchor(checkCircle.topAnchor, left: checkCircle.rightAnchor, bottom: nil, right: self.rightAnchor , topConstant: 6, leftConstant: 8, bottomConstant: 0, rightConstant: 12, widthConstant: 0, heightConstant: 20)
+        nameLabel.anchor(checkCircle.topAnchor, left: checkCircle.rightAnchor, bottom: nil, right: self.rightAnchor , topConstant: 0, leftConstant: 8, bottomConstant: 0, rightConstant: 12, widthConstant: 0, heightConstant: 20)
         
     }
 }

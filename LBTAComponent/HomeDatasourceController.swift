@@ -46,7 +46,7 @@ class HomedatasourceController: DatasourceController {
         } else if indexPath.section == 5 {
             return CGSize(width: view.frame.width, height: 80)
         }
-        return CGSize(width: view.frame.width, height: 60)
+        return CGSize(width: view.frame.width, height: 50)
     }
     // Header
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
