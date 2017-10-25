@@ -20,6 +20,7 @@ class SummaryCell: DatasourceCell {
     }()
     override func setupViews() {
         super.setupViews()
+        separatorLineView.isHidden = false
         addSubview(summaryLabel)
         summaryLabel.anchor(self.topAnchor, left: self.leftAnchor, bottom: nil, right: self.rightAnchor, topConstant: 12, leftConstant: 12, bottomConstant: 0, rightConstant: 0, widthConstant: 0, heightConstant: 0)
         

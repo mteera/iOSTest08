@@ -36,8 +36,10 @@ class HomedataourceController: DatasourceController {
             let estimateFrame = NSString(string: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip").boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: attributes, context: nil)
             
             // Returns the frame + any margins seperating it.
-            return CGSize(width: view.frame.width, height: estimateFrame.height + 12)
+            return CGSize(width: view.frame.width, height: estimateFrame.height + 24)
         } else if indexPath.section == 2 {
+            return CGSize(width: view.frame.width, height: 80)
+        } else if indexPath.section == 3 {
             return CGSize(width: view.frame.width, height: 80)
         }
         return CGSize(width: view.frame.width, height: 60)
@@ -47,6 +49,8 @@ class HomedataourceController: DatasourceController {
         if section == 1 {
             return .zero
         } else if section == 2 {
+            return .zero
+        } else if section == 3 {
             return .zero
         }
         return CGSize(width: view.frame.width, height: 124)

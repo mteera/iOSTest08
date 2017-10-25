@@ -21,7 +21,7 @@ class HomeDatasource: Datasource {
     }
     
     override func cellClasses() -> [DatasourceCell.Type] {
-        return [UserCell.self, SummaryCell.self, MemberSinceCell.self]
+        return [UserCell.self, SummaryCell.self, MemberSinceCell.self, IndustryCell.self]
     }
     
 
@@ -37,11 +37,13 @@ class HomeDatasource: Datasource {
             return 1
         } else if section == 2 {
             return 1
+        } else if section == 3 {
+            return 1
         }
         return words.count
     }
     
     override func numberOfSections() -> Int {
-        return 3
+        return 4
     }
 }
