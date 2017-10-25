@@ -34,8 +34,8 @@ class UserCell: DatasourceCell {
     
     override func setupViews() {
         super.setupViews()
-        
-        
+        separatorLineView.isHidden = false
+        separatorLineView.backgroundColor = UIColor(r: 220, g: 220, b: 220)
         addSubview(checkCircle)
         addSubview(nameLabel)
         

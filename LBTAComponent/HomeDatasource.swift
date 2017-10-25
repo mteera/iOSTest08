@@ -21,7 +21,7 @@ class HomeDatasource: Datasource {
     }
     
     override func cellClasses() -> [DatasourceCell.Type] {
-        return [UserCell.self]
+        return [UserCell.self, MemberSinceCell.self]
     }
     
     override func footerClasses() -> [DatasourceCell.Type]? {
@@ -36,6 +36,13 @@ class HomeDatasource: Datasource {
     
     // Populate the number of sections with the number of items in object
     override func numberOfItems(_ section: Int) -> Int {
+        if section == 1 {
+            return 1
+        }
         return words.count
+    }
+    
+    override func numberOfSections() -> Int {
+        return 2
     }
 }

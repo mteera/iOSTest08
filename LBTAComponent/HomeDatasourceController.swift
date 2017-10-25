@@ -24,13 +24,24 @@ class HomedataourceController: DatasourceController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        if indexPath.section == 1 {
+            return CGSize(width: view.frame.width, height: 80)
+        }
         return CGSize(width: view.frame.width, height: 60)
     }
-    
+    // Header
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return CGSize(width: view.frame.width, height: 200)
+        if section == 1 {
+            return .zero
+        }
+        return CGSize(width: view.frame.width, height: 124)
     }
+    //Footer
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
+        if section == 1 {
+            return .zero
+        }
         return CGSize(width: view.frame.width, height: 100)
     }
     

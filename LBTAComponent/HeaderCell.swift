@@ -23,18 +23,21 @@ class HeaderCell: DatasourceCell {
     let nameLabel: UILabel = {
         let label = UILabel()
         label.text = "John Doe"
+        label.font = UIFont.systemFont(ofSize: 17)
         return label
     }()
     
     let companyLabel: UILabel = {
         let label = UILabel()
-        label.text = "WhizzTech"
+        label.text = "TechWhizz"
+        label.font = UIFont.systemFont(ofSize: 15)
         return label
     }()
     
     let headlineLabel: UILabel = {
         let label = UILabel()
         label.text = "CEO"
+        label.font = UIFont.systemFont(ofSize: 12)
         return label
     }()
     
