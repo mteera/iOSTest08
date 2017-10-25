@@ -12,7 +12,6 @@ class HomedatasourceController: DatasourceController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.babyBlue
-
         setupNavigationBarItems()
         // Call the data source
         let homeDatasource = HomeDatasource()

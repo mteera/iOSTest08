@@ -18,7 +18,7 @@
 		B541B4A31FA0BBA20081228F /* ProfileviewController+Nav.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541B4A21FA0BBA20081228F /* ProfileviewController+Nav.swift */; };
 		B541B4A71FA0C5370081228F /* SkillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541B4A61FA0C5370081228F /* SkillsCell.swift */; };
 		B541B4AA1FA0C74E0081228F /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541B4A91FA0C74E0081228F /* TabbarController.swift */; };
-		B541B4AC1FA0C8C70081228F /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541B4AB1FA0C8C70081228F /* NewsViewController.swift */; };
+		B541B4AC1FA0C8C70081228F /* EventDatasourcecontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B541B4AB1FA0C8C70081228F /* EventDatasourcecontroller.swift */; };
 		B543D23A1F9B9F0E005702F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543D2391F9B9F0E005702F5 /* AppDelegate.swift */; };
 		B543D23C1F9B9F0E005702F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543D23B1F9B9F0E005702F5 /* ViewController.swift */; };
 		B543D23F1F9B9F0E005702F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B543D23D1F9B9F0E005702F5 /* Main.storyboard */; };
@@ -28,6 +28,8 @@
 		B56217661F9D563D00FF6C71 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56217651F9D563D00FF6C71 /* RecipeCell.swift */; };
 		B56217681F9D565A00FF6C71 /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56217671F9D565A00FF6C71 /* HomeDatasource.swift */; };
 		B562176A1F9D567F00FF6C71 /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56217691F9D567F00FF6C71 /* HomeDatasourceController.swift */; };
+		B5D8ECBB1FA1337600B607F9 /* EventDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D8ECBA1FA1337600B607F9 /* EventDataSource.swift */; };
+		B5D8ECBD1FA133C100B607F9 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D8ECBC1FA133C100B607F9 /* EventCell.swift */; };
 		B5FF626A1F9FED3F001167A5 /* FoodBulbTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF62691F9FED3F001167A5 /* FoodBulbTheme.swift */; };
 		C2BD7DECB578733ABE4AFF96 /* Pods_LBTAComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C3CB34D9FE6BAC6F6AB9D6 /* Pods_LBTAComponent.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +48,7 @@
 		B541B4A21FA0BBA20081228F /* ProfileviewController+Nav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileviewController+Nav.swift"; sourceTree = "<group>"; };
 		B541B4A61FA0C5370081228F /* SkillsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsCell.swift; sourceTree = "<group>"; };
 		B541B4A91FA0C74E0081228F /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
-		B541B4AB1FA0C8C70081228F /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewsViewController.swift; path = ../NewsViewController.swift; sourceTree = "<group>"; };
+		B541B4AB1FA0C8C70081228F /* EventDatasourcecontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventDatasourcecontroller.swift; path = ../EventDatasourcecontroller.swift; sourceTree = "<group>"; };
 		B543D2361F9B9F0E005702F5 /* LBTAComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBTAComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B543D2391F9B9F0E005702F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B543D23B1F9B9F0E005702F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,8 @@
 		B56217651F9D563D00FF6C71 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		B56217671F9D565A00FF6C71 /* HomeDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
 		B56217691F9D567F00FF6C71 /* HomeDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
+		B5D8ECBA1FA1337600B607F9 /* EventDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDataSource.swift; sourceTree = "<group>"; };
+		B5D8ECBC1FA133C100B607F9 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		B5FF62691F9FED3F001167A5 /* FoodBulbTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodBulbTheme.swift; sourceTree = "<group>"; };
 		DB71E24C3D9104F725DD4E2C /* Pods-LBTAComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBTAComponent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBTAComponent/Pods-LBTAComponent.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				B56217671F9D565A00FF6C71 /* HomeDatasource.swift */,
+				B5D8ECBA1FA1337600B607F9 /* EventDataSource.swift */,
 				B56217631F9D563000FF6C71 /* Recipe.swift */,
 			);
 			name = Model;
@@ -137,6 +142,7 @@
 		B562176C1F9D56BC00FF6C71 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B5D8ECBE1FA133DB00B607F9 /* Event */,
 				B541B4A81FA0C5600081228F /* Profile */,
 				B56217651F9D563D00FF6C71 /* RecipeCell.swift */,
 				B5FF62691F9FED3F001167A5 /* FoodBulbTheme.swift */,
@@ -149,9 +155,17 @@
 			children = (
 				B541B4A91FA0C74E0081228F /* TabbarController.swift */,
 				B56217691F9D567F00FF6C71 /* HomeDatasourceController.swift */,
-				B541B4AB1FA0C8C70081228F /* NewsViewController.swift */,
+				B541B4AB1FA0C8C70081228F /* EventDatasourcecontroller.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		B5D8ECBE1FA133DB00B607F9 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				B5D8ECBC1FA133C100B607F9 /* EventCell.swift */,
+			);
+			name = Event;
 			sourceTree = "<group>";
 		};
 		BBBA24F1EE5A00C1D206554D /* Pods */ = {
@@ -296,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B51336061FA0E510009094E9 /* OvalView.swift in Sources */,
+				B5D8ECBB1FA1337600B607F9 /* EventDataSource.swift in Sources */,
 				B533D0471FA0909900A11A65 /* MemberSinceCell.swift in Sources */,
 				B541B4A11FA0A6180081228F /* TitleHeaderCell.swift in Sources */,
 				B56217661F9D563D00FF6C71 /* RecipeCell.swift in Sources */,
@@ -307,11 +322,12 @@
 				B543D23A1F9B9F0E005702F5 /* AppDelegate.swift in Sources */,
 				B541B4A31FA0BBA20081228F /* ProfileviewController+Nav.swift in Sources */,
 				B533D04D1FA096C300A11A65 /* LinksCell.swift in Sources */,
+				B5D8ECBD1FA133C100B607F9 /* EventCell.swift in Sources */,
 				B5FF626A1F9FED3F001167A5 /* FoodBulbTheme.swift in Sources */,
 				B533D04B1FA096A100A11A65 /* IndustryCell.swift in Sources */,
 				B541B4A71FA0C5370081228F /* SkillsCell.swift in Sources */,
 				B533D0491FA0966A00A11A65 /* SummaryCell.swift in Sources */,
-				B541B4AC1FA0C8C70081228F /* NewsViewController.swift in Sources */,
+				B541B4AC1FA0C8C70081228F /* EventDatasourcecontroller.swift in Sources */,
 				B56217641F9D563000FF6C71 /* Recipe.swift in Sources */,
 				B541B4AA1FA0C74E0081228F /* TabbarController.swift in Sources */,
 			);
