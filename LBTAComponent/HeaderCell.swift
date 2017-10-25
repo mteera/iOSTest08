@@ -15,7 +15,7 @@ class HeaderCell: DatasourceCell {
         let image = UIImageView()
         image.layer.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         image.layer.cornerRadius = image.layer.frame.height/2
-        image.image = UIImage(named: "profile-placeholder")
+        image.image = UIImage(named: "john-doe")
         image.clipsToBounds = true
         return image
     }()

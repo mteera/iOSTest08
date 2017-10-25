@@ -14,14 +14,14 @@ import SwiftyJSON
 class HomeDatasource: Datasource {
     
     // Define the object to populate table
-    let words = ["jack", "miley", "john"]
+    let words = ["SEO", "CMS", "Project Management"]
     
     override func headerClasses() -> [DatasourceCell.Type]? {
         return [HeaderCell.self]
     }
     
     override func cellClasses() -> [DatasourceCell.Type] {
-        return [UserCell.self, SummaryCell.self, MemberSinceCell.self, IndustryCell.self]
+        return [UserCell.self, SummaryCell.self, MemberSinceCell.self, IndustryCell.self, TitleHeaderCell.self, LinksCell.self]
     }
     
 
@@ -39,11 +39,15 @@ class HomeDatasource: Datasource {
             return 1
         } else if section == 3 {
             return 1
+        } else if section == 4 {
+            return 1
+        } else if section == 5 {
+            return 3
         }
         return words.count
     }
     
     override func numberOfSections() -> Int {
-        return 4
+        return 6
     }
 }

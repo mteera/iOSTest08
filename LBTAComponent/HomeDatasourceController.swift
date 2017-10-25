@@ -23,6 +23,8 @@ class HomedataourceController: DatasourceController {
         return 0
     }
     
+    
+    
     override func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         if indexPath.section == 1 {
@@ -41,6 +43,11 @@ class HomedataourceController: DatasourceController {
             return CGSize(width: view.frame.width, height: 80)
         } else if indexPath.section == 3 {
             return CGSize(width: view.frame.width, height: 80)
+            //Title header cell
+        } else if indexPath.section == 4 {
+            return CGSize(width: view.frame.width, height: 34)
+        } else if indexPath.section == 5 {
+            return CGSize(width: view.frame.width, height: 80)
         }
         return CGSize(width: view.frame.width, height: 60)
     }
@@ -51,6 +58,10 @@ class HomedataourceController: DatasourceController {
         } else if section == 2 {
             return .zero
         } else if section == 3 {
+            return .zero
+        } else if section == 4 {
+            return .zero
+        } else if section == 5 {
             return .zero
         }
         return CGSize(width: view.frame.width, height: 124)
