@@ -8,7 +8,7 @@
 
 import LBTAComponents
 
-class HomedatasourceController: DatasourceController {
+class ProfileDatasourceController: DatasourceController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.babyBlue

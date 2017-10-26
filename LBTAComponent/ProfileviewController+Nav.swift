@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension HomedatasourceController {
+extension ProfileDatasourceController {
     
     func setupNavigationBarItems() {
         navigationItem.title = "Me"

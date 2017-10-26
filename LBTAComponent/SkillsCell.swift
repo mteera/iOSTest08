@@ -18,7 +18,7 @@ class InterestsCell: DatasourceCell {
     
     let checkCircle: UIView = {
         let circle = UIView()
-        circle.backgroundColor = UIColor.foodBulbGreen
+        circle.backgroundColor = UIColor.beepBlue
         circle.layer.frame = CGRect(x: 0, y: 0, width: 20, height: 20)
         circle.layer.cornerRadius = circle.layer.frame.height/2
         circle.clipsToBounds = true

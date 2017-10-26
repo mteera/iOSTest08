@@ -39,7 +39,6 @@ class TabbarController: UITabBarController, UITabBarControllerDelegate {
         menuButton.frame = menuButtonFrame
         //Styling
         menuButton.backgroundColor = UIColor.black
-        menuButton.translatesAutoresizingMaskIntoConstraints = false
         menuButton.layer.cornerRadius = menuButton.layer.frame.width/2
         menuButton.setImage(UIImage(named: "OS-eye-white-condensed"), for: UIControlState.normal)
         menuButton.addTarget(self, action: #selector(TabbarController.menuButtonAction), for: UIControlEvents.touchUpInside)
@@ -61,7 +60,7 @@ class TabbarController: UITabBarController, UITabBarControllerDelegate {
         let nav2 = UINavigationController(rootViewController: controller2)
         nav2.title = "Pass"
         
-        let controller3 = UIViewController()
+        let controller3 = AttendeesDatasourceController()
         let nav3 = UINavigationController(rootViewController: controller3)
         nav3.title = ""
         
@@ -71,7 +70,7 @@ class TabbarController: UITabBarController, UITabBarControllerDelegate {
         let nav4 = UINavigationController(rootViewController: controller4)
         nav4.title = "Meet"
         
-        let controller5 = HomedatasourceController()
+        let controller5 = ProfileDatasourceController()
         controller5.tabBarItem.title = "User"
         controller5.tabBarItem.image = UIImage(named: "user-selected")
         let nav5 = UINavigationController(rootViewController: controller5)

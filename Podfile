@@ -9,6 +9,7 @@ target 'LBTAComponent' do
   pod 'Alamofire'
   pod 'TRON'
   pod 'SwiftyJSON'
+  pod 'Koloda'
 
   # Pods for LBTAComponent
 

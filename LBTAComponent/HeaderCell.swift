@@ -11,10 +11,28 @@ import LBTAComponents
 
 class HeaderCell: DatasourceCell {
     
+    let backgroundImageView: UIImageView = {
+        let image = UIImageView()
+        image.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
+        image.image = UIImage(named: "john-doe")
+        image.contentMode = .scaleAspectFill
+        return image
+    }()
+    
+    let blurView: UIView = {
+        let blurEffectView = UIBlurEffect(style: UIBlurEffectStyle.dark)
+        let blur = UIVisualEffectView(effect: blurEffectView)
+        blur.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
+        blur.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        return blur
+    }()
+    
     let profileImageView: UIImageView = {
         let image = UIImageView()
         image.layer.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         image.layer.cornerRadius = image.layer.frame.height/2
+        image.layer.borderWidth = 3
+        image.layer.borderColor = UIColor.white.cgColor
         image.image = UIImage(named: "john-doe")
         image.clipsToBounds = true
         return image
@@ -23,13 +41,15 @@ class HeaderCell: DatasourceCell {
     let nameLabel: UILabel = {
         let label = UILabel()
         label.text = "John Doe"
-        label.font = UIFont.systemFont(ofSize: 17)
+        label.textColor = UIColor.white
+        label.font = UIFont.boldSystemFont(ofSize: 17)
         return label
     }()
     
     let companyLabel: UILabel = {
         let label = UILabel()
         label.text = "TechWhizz"
+        label.textColor = UIColor.white
         label.font = UIFont.systemFont(ofSize: 15)
         return label
     }()
@@ -37,16 +57,23 @@ class HeaderCell: DatasourceCell {
     let headlineLabel: UILabel = {
         let label = UILabel()
         label.text = "CEO"
-        label.font = UIFont.systemFont(ofSize: 12)
+        label.textColor = UIColor.beepBlue
+        label.font = UIFont.boldSystemFont(ofSize: 12)
         return label
     }()
     
     override func setupViews() {
         super.setupViews()
+        addSubview(backgroundImageView)
+        addSubview(blurView)
         addSubview(profileImageView)
         addSubview(nameLabel)
         addSubview(companyLabel)
         addSubview(headlineLabel)
+        
+        backgroundImageView.anchor(self.topAnchor, left: self.leftAnchor, bottom: self.bottomAnchor, right: self.rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 200, heightConstant: 200)
+        
+        blurView.anchor(self.topAnchor, left: self.leftAnchor, bottom: self.bottomAnchor, right: self.rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 200, heightConstant: 200)
         
         profileImageView.anchor(self.topAnchor, left: self.leftAnchor, bottom: nil, right: nil, topConstant: 12, leftConstant: 12, bottomConstant: 0, rightConstant: 0, widthConstant: 100, heightConstant: 100)
         

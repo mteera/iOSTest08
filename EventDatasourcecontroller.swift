@@ -12,9 +12,8 @@ class EventDatasoucecontroller: DatasourceController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.babyBlue
-        collectionView?.contentInset = UIEdgeInsetsMake(44,0,0,0)
-        navigationController?.navigationBar.backgroundColor = .white
-
+        collectionView?.contentInset = UIEdgeInsetsMake(0,0,0,0)
+        navigationItem.title = "dfghjnkml"
         setupNavigationBarItems()
         // Call the data source
         let homeDatasource = EventDatasource()
@@ -41,7 +40,7 @@ class EventDatasoucecontroller: DatasourceController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
+
         return CGSize(width: view.frame.width, height: 200)
     }
 }

@@ -27,7 +27,15 @@
 		B56217641F9D563000FF6C71 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56217631F9D563000FF6C71 /* Recipe.swift */; };
 		B56217661F9D563D00FF6C71 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56217651F9D563D00FF6C71 /* RecipeCell.swift */; };
 		B56217681F9D565A00FF6C71 /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56217671F9D565A00FF6C71 /* HomeDatasource.swift */; };
-		B562176A1F9D567F00FF6C71 /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56217691F9D567F00FF6C71 /* HomeDatasourceController.swift */; };
+		B562176A1F9D567F00FF6C71 /* ProfileDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56217691F9D567F00FF6C71 /* ProfileDatasourceController.swift */; };
+		B5692A101FA220580041C223 /* AttendeeSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5692A0F1FA220580041C223 /* AttendeeSummaryCell.swift */; };
+		B5692A161FA225950041C223 /* AttendeeTitleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5692A151FA225950041C223 /* AttendeeTitleHeader.swift */; };
+		B5692A181FA226720041C223 /* AttendeeIndustryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5692A171FA226720041C223 /* AttendeeIndustryCell.swift */; };
+		B5692A1C1FA228490041C223 /* AttendeeLinksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5692A1B1FA228490041C223 /* AttendeeLinksCell.swift */; };
+		B56A6E6B1FA21A3A00A014C8 /* AttendeeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56A6E6A1FA21A3A00A014C8 /* AttendeeDatasource.swift */; };
+		B56A6E6D1FA21AB100A014C8 /* AttendeeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56A6E6C1FA21AB100A014C8 /* AttendeeHeaderCell.swift */; };
+		B56A6E701FA21C2D00A014C8 /* AttendeeSkillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56A6E6F1FA21C2D00A014C8 /* AttendeeSkillsCell.swift */; };
+		B5872D581FA1D61F00FC6449 /* AttendeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5872D571FA1D61F00FC6449 /* AttendeesViewController.swift */; };
 		B5D8ECBB1FA1337600B607F9 /* EventDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D8ECBA1FA1337600B607F9 /* EventDataSource.swift */; };
 		B5D8ECBD1FA133C100B607F9 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D8ECBC1FA133C100B607F9 /* EventCell.swift */; };
 		B5FF626A1F9FED3F001167A5 /* FoodBulbTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF62691F9FED3F001167A5 /* FoodBulbTheme.swift */; };
@@ -59,7 +67,15 @@
 		B56217631F9D563000FF6C71 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		B56217651F9D563D00FF6C71 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		B56217671F9D565A00FF6C71 /* HomeDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
-		B56217691F9D567F00FF6C71 /* HomeDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
+		B56217691F9D567F00FF6C71 /* ProfileDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDatasourceController.swift; sourceTree = "<group>"; };
+		B5692A0F1FA220580041C223 /* AttendeeSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeSummaryCell.swift; sourceTree = "<group>"; };
+		B5692A151FA225950041C223 /* AttendeeTitleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeTitleHeader.swift; sourceTree = "<group>"; };
+		B5692A171FA226720041C223 /* AttendeeIndustryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeIndustryCell.swift; sourceTree = "<group>"; };
+		B5692A1B1FA228490041C223 /* AttendeeLinksCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeLinksCell.swift; sourceTree = "<group>"; };
+		B56A6E6A1FA21A3A00A014C8 /* AttendeeDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeDatasource.swift; sourceTree = "<group>"; };
+		B56A6E6C1FA21AB100A014C8 /* AttendeeHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeHeaderCell.swift; sourceTree = "<group>"; };
+		B56A6E6F1FA21C2D00A014C8 /* AttendeeSkillsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeeSkillsCell.swift; sourceTree = "<group>"; };
+		B5872D571FA1D61F00FC6449 /* AttendeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendeesViewController.swift; sourceTree = "<group>"; };
 		B5D8ECBA1FA1337600B607F9 /* EventDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDataSource.swift; sourceTree = "<group>"; };
 		B5D8ECBC1FA133C100B607F9 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		B5FF62691F9FED3F001167A5 /* FoodBulbTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodBulbTheme.swift; sourceTree = "<group>"; };
@@ -134,6 +150,7 @@
 			children = (
 				B56217671F9D565A00FF6C71 /* HomeDatasource.swift */,
 				B5D8ECBA1FA1337600B607F9 /* EventDataSource.swift */,
+				B56A6E6A1FA21A3A00A014C8 /* AttendeeDatasource.swift */,
 				B56217631F9D563000FF6C71 /* Recipe.swift */,
 			);
 			name = Model;
@@ -142,6 +159,7 @@
 		B562176C1F9D56BC00FF6C71 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B56A6E6E1FA21ACA00A014C8 /* Attendee */,
 				B5D8ECBE1FA133DB00B607F9 /* Event */,
 				B541B4A81FA0C5600081228F /* Profile */,
 				B56217651F9D563D00FF6C71 /* RecipeCell.swift */,
@@ -154,10 +172,24 @@
 			isa = PBXGroup;
 			children = (
 				B541B4A91FA0C74E0081228F /* TabbarController.swift */,
-				B56217691F9D567F00FF6C71 /* HomeDatasourceController.swift */,
+				B56217691F9D567F00FF6C71 /* ProfileDatasourceController.swift */,
 				B541B4AB1FA0C8C70081228F /* EventDatasourcecontroller.swift */,
+				B5872D571FA1D61F00FC6449 /* AttendeesViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		B56A6E6E1FA21ACA00A014C8 /* Attendee */ = {
+			isa = PBXGroup;
+			children = (
+				B56A6E6C1FA21AB100A014C8 /* AttendeeHeaderCell.swift */,
+				B56A6E6F1FA21C2D00A014C8 /* AttendeeSkillsCell.swift */,
+				B5692A0F1FA220580041C223 /* AttendeeSummaryCell.swift */,
+				B5692A171FA226720041C223 /* AttendeeIndustryCell.swift */,
+				B5692A151FA225950041C223 /* AttendeeTitleHeader.swift */,
+				B5692A1B1FA228490041C223 /* AttendeeLinksCell.swift */,
+			);
+			path = Attendee;
 			sourceTree = "<group>";
 		};
 		B5D8ECBE1FA133DB00B607F9 /* Event */ = {
@@ -263,13 +295,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBTAComponent-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		255FCB5F51F257DCAC0D3AF8 /* [CP] Copy Pods Resources */ = {
@@ -293,9 +328,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LBTAComponent/Pods-LBTAComponent-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TRON/TRON.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TRON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -313,12 +361,15 @@
 				B5D8ECBB1FA1337600B607F9 /* EventDataSource.swift in Sources */,
 				B533D0471FA0909900A11A65 /* MemberSinceCell.swift in Sources */,
 				B541B4A11FA0A6180081228F /* TitleHeaderCell.swift in Sources */,
+				B5692A101FA220580041C223 /* AttendeeSummaryCell.swift in Sources */,
 				B56217661F9D563D00FF6C71 /* RecipeCell.swift in Sources */,
 				B543D23C1F9B9F0E005702F5 /* ViewController.swift in Sources */,
-				B562176A1F9D567F00FF6C71 /* HomeDatasourceController.swift in Sources */,
+				B562176A1F9D567F00FF6C71 /* ProfileDatasourceController.swift in Sources */,
 				B56217681F9D565A00FF6C71 /* HomeDatasource.swift in Sources */,
+				B5692A181FA226720041C223 /* AttendeeIndustryCell.swift in Sources */,
 				B533D0411FA0895000A11A65 /* FooterClass.swift in Sources */,
 				B533D0431FA089AB00A11A65 /* HeaderCell.swift in Sources */,
+				B5692A161FA225950041C223 /* AttendeeTitleHeader.swift in Sources */,
 				B543D23A1F9B9F0E005702F5 /* AppDelegate.swift in Sources */,
 				B541B4A31FA0BBA20081228F /* ProfileviewController+Nav.swift in Sources */,
 				B533D04D1FA096C300A11A65 /* LinksCell.swift in Sources */,
@@ -327,8 +378,13 @@
 				B533D04B1FA096A100A11A65 /* IndustryCell.swift in Sources */,
 				B541B4A71FA0C5370081228F /* SkillsCell.swift in Sources */,
 				B533D0491FA0966A00A11A65 /* SummaryCell.swift in Sources */,
+				B5872D581FA1D61F00FC6449 /* AttendeesViewController.swift in Sources */,
 				B541B4AC1FA0C8C70081228F /* EventDatasourcecontroller.swift in Sources */,
+				B56A6E701FA21C2D00A014C8 /* AttendeeSkillsCell.swift in Sources */,
+				B5692A1C1FA228490041C223 /* AttendeeLinksCell.swift in Sources */,
+				B56A6E6B1FA21A3A00A014C8 /* AttendeeDatasource.swift in Sources */,
 				B56217641F9D563000FF6C71 /* Recipe.swift in Sources */,
+				B56A6E6D1FA21AB100A014C8 /* AttendeeHeaderCell.swift in Sources */,
 				B541B4AA1FA0C74E0081228F /* TabbarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,7 +510,7 @@
 				DEVELOPMENT_TEAM = M3DGRJBYYX;
 				INFOPLIST_FILE = LBTAComponent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = chaceteera.LBTAComponent;
+				PRODUCT_BUNDLE_IDENTIFIER = chaceteera.iOSTest080;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -468,7 +524,7 @@
 				DEVELOPMENT_TEAM = M3DGRJBYYX;
 				INFOPLIST_FILE = LBTAComponent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = chaceteera.LBTAComponent;
+				PRODUCT_BUNDLE_IDENTIFIER = chaceteera.iOSTest080;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

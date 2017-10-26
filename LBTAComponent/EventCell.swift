@@ -21,7 +21,7 @@ class EventCell: DatasourceCell {
     
     let nameLabel: UILabel = {
         let label = UILabel()
-        label.text = "07/01/2018"
+        label.text = "25/01/2018"
         label.textColor = UIColor.white
         label.font = UIFont.systemFont(ofSize: 17)
         return label

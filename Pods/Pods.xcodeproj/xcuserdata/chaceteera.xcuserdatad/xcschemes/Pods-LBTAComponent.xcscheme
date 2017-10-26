@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "355C4A88D97DB25781AD1EB5719A4299"
+               BlueprintIdentifier = "A3E8338877545B5A864F3BA2FA245A55"
                BuildableName = "Pods_LBTAComponent.framework"
                BlueprintName = "Pods-LBTAComponent"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "355C4A88D97DB25781AD1EB5719A4299"
+            BlueprintIdentifier = "A3E8338877545B5A864F3BA2FA245A55"
             BuildableName = "Pods_LBTAComponent.framework"
             BlueprintName = "Pods-LBTAComponent"
             ReferencedContainer = "container:Pods.xcodeproj">
