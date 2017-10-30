@@ -10,7 +10,7 @@ import UIKit
 import LBTAComponents
 import Koloda
 
-class AttendeesDatasourceController: DatasourceController, KolodaViewDelegate, KolodaViewDataSource {
+class AttendeesDatasourceController: DatasourceController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
